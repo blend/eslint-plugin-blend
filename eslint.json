@@ -1,0 +1,40 @@
+{
+  "ecmaFeatures": {},
+  "parser": "espree",
+  "plugins": ["blend"],
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "no-shadow": 0,
+    "curly": 0,
+    "new-cap": 0,
+    "no-param-reassign": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0,
+    "no-extra-parens": 0,
+    "camelcase": 0,
+    "no-process-exit": 0,
+    "no-warning-comments": 0,
+    "no-eval": 1,
+    "no-constant-condition": 1,
+    "no-unused-expressions": 1,
+    "no-loop-func": 1,
+    "no-process-env": 1,
+    "quotes": [2, "single"],
+    "no-path-concat": 2,
+    "default-case": 2,
+    "indent": [2, 2],
+    "block-scoped-var": 2,
+    "no-self-compare": 2,
+    "no-redeclare": 2,
+    "quote-props": [2, "as-needed"],
+    "blend/lodash-arity": 2,
+    "blend/collapse-trivial-function": 2,
+    "blend/provide-no-return-value": 2,
+    "blend/lodash-use-object-predicate": 2,
+    "blend/lodash-map-predicate": 2
+  }
+}
