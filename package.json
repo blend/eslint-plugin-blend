@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-blend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom eslint plugins for blend",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "eslint": "1.10.3",
     "jshint": "2.8.0",
-    "lodash": "3.10.1",
+    "lodash": "4.2.1",
     "mocha": "2.2.5"
   }
 }
