@@ -14,9 +14,9 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.15.1",
-    "jshint": "2.8.0",
-    "lodash": "4.2.1",
+    "eslint": "5.15.1",
+    "jshint": "2.10.2",
+    "lodash": "^4.17.11",
     "mocha": "2.2.5"
   }
 }
